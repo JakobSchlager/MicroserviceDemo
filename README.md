@@ -2,6 +2,8 @@
 
 ## 1. Use Case
 ![image](https://user-images.githubusercontent.com/55581391/136433521-38e91ef3-4eb7-4f1c-9162-08a731e1c783.png)
+### 1.1. User Story
+Ein Benutzer möchte auf der Seite einen Film auswählen. Anschließend will er einen Sitzplatz reservieren. Zuletzt will der benutzer sein Ticket noch herunterladen können.
 ## 2. Domänen/ Services
 ## 3. Kommunikation (Upstream/Downstream oder gleichwertig)
 ## 4. Entwicklungsumgebung
