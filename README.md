@@ -5,6 +5,7 @@
 ### 1.1. User Story
 Ein Benutzer möchte auf der Seite einen Film auswählen. Anschließend will er einen Sitzplatz reservieren. Zuletzt will der benutzer sein Ticket noch herunterladen können.
 ## 2. Domänen/ Services
+![image](https://user-images.githubusercontent.com/55581391/136434931-d894a8ca-d859-4b56-b7a5-4bdd6448cdfc.png)
 ## 3. Kommunikation (Upstream/Downstream oder gleichwertig)
 ## 4. Entwicklungsumgebung
 ### 4.1. Programmiersprache und Framework
