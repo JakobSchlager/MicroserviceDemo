@@ -11,8 +11,13 @@ Ein Benutzer möchte auf der Seite einen Film auswählen. Anschließend will er 
 ![image](https://user-images.githubusercontent.com/55581391/136436922-02e7045b-8e0f-4f6f-abb3-278b4d8a4f1d.png)
 ## 4. Entwicklungsumgebung
 ### 4.1. Programmiersprache und Framework
+Backend: C#: Entity Framework Core - ASP.NET, eventuell JavaScript (TypeScript) mit Express oder Java mit Spring Boot
+Falls Zeit für ein kleines Frontend bleibt: TypeScript: Angular
 ### 4.2. Datenhaltung
+MariaDB/ MySql
 ### 4.3. Dateinaustausch (Synchron/ Asynchron)
+Synchron: Http (REST) 
+Dateinformat: JSON
 ## 5. Services rudimentär implementieren
 ## 6. Qualitätskriterien 
 ## 7. Patterns und Technologien
