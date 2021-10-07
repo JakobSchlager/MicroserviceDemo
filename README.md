@@ -1,7 +1,7 @@
 # Microservice Demo
 
 ## 1. Use Case
-![image](https://user-images.githubusercontent.com/55581391/136412447-a75d2bfc-1e56-4198-9a7e-dcbe901833b2.png)
+![image](https://user-images.githubusercontent.com/55581391/136433521-38e91ef3-4eb7-4f1c-9162-08a731e1c783.png)
 ## 2. Domänen/ Services
 ## 3. Kommunikation (Upstream/Downstream oder gleichwertig)
 ## 4. Entwicklungsumgebung
