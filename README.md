@@ -16,8 +16,11 @@ Falls Zeit für ein kleines Frontend bleibt: TypeScript: Angular
 ### 4.2. Datenhaltung
 MariaDB/ MySql
 ### 4.3. Dateinaustausch (Synchron/ Asynchron)
-Synchron: Http (REST)  
+Synchron: Http (REST)
 Dateinformat: JSON
+Asynchron:  
+![image](https://user-images.githubusercontent.com/55581391/136698121-5b2a57e3-068f-4fdd-a737-da0a78b20dab.png)
+*Als Messagebus wäre Azure Message Bus, NServiceBus, RabbitMQ möglich. ALlerdings noch keine Lösung für transactional outbox bei Azure Service Bus gefunden.*
 ## 5. Services rudimentär implementieren
 ## 6. Qualitätskriterien 
 ## 7. Patterns und Technologien
