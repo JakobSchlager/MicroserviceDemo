@@ -1,0 +1,15 @@
+G:\Diplo\CinemaMicro\RoomService\RoomDbLib\bin\Debug\net5.0\RoomDbLib.deps.json
+G:\Diplo\CinemaMicro\RoomService\RoomDbLib\bin\Debug\net5.0\RoomDbLib.runtimeconfig.json
+G:\Diplo\CinemaMicro\RoomService\RoomDbLib\bin\Debug\net5.0\RoomDbLib.runtimeconfig.dev.json
+G:\Diplo\CinemaMicro\RoomService\RoomDbLib\bin\Debug\net5.0\RoomDbLib.dll
+G:\Diplo\CinemaMicro\RoomService\RoomDbLib\bin\Debug\net5.0\ref\RoomDbLib.dll
+G:\Diplo\CinemaMicro\RoomService\RoomDbLib\bin\Debug\net5.0\RoomDbLib.pdb
+G:\Diplo\CinemaMicro\RoomService\RoomDbLib\obj\Debug\net5.0\RoomDbLib.csproj.AssemblyReference.cache
+G:\Diplo\CinemaMicro\RoomService\RoomDbLib\obj\Debug\net5.0\RoomDbLib.GeneratedMSBuildEditorConfig.editorconfig
+G:\Diplo\CinemaMicro\RoomService\RoomDbLib\obj\Debug\net5.0\RoomDbLib.AssemblyInfoInputs.cache
+G:\Diplo\CinemaMicro\RoomService\RoomDbLib\obj\Debug\net5.0\RoomDbLib.AssemblyInfo.cs
+G:\Diplo\CinemaMicro\RoomService\RoomDbLib\obj\Debug\net5.0\RoomDbLib.csproj.CoreCompileInputs.cache
+G:\Diplo\CinemaMicro\RoomService\RoomDbLib\obj\Debug\net5.0\RoomDbLib.dll
+G:\Diplo\CinemaMicro\RoomService\RoomDbLib\obj\Debug\net5.0\ref\RoomDbLib.dll
+G:\Diplo\CinemaMicro\RoomService\RoomDbLib\obj\Debug\net5.0\RoomDbLib.pdb
+G:\Diplo\CinemaMicro\RoomService\RoomDbLib\obj\Debug\net5.0\RoomDbLib.genruntimeconfig.cache

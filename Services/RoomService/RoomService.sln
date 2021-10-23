@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomService", "RoomService\RoomService.csproj", "{1A06960B-64B3-4C91-B667-AF7823D6DDEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomDbLib", "RoomDbLib\RoomDbLib.csproj", "{7143A10C-2456-4107-BC72-3572242777DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A06960B-64B3-4C91-B667-AF7823D6DDEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A06960B-64B3-4C91-B667-AF7823D6DDEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A06960B-64B3-4C91-B667-AF7823D6DDEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A06960B-64B3-4C91-B667-AF7823D6DDEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7143A10C-2456-4107-BC72-3572242777DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7143A10C-2456-4107-BC72-3572242777DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7143A10C-2456-4107-BC72-3572242777DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7143A10C-2456-4107-BC72-3572242777DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4ACAB87-1BFC-48D8-B636-BE43AF341A93}
+	EndGlobalSection
+EndGlobal
