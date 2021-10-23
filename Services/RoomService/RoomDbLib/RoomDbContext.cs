@@ -3,11 +3,7 @@ using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 using RoomDbLib.Entities;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RoomDbLib
 {
@@ -22,7 +18,7 @@ namespace RoomDbLib
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
 
-        class TournamentContextFactory : IDesignTimeDbContextFactory<RoomDbContext>
+        class RoomContextFactory : IDesignTimeDbContextFactory<RoomDbContext>
         {
             public RoomDbContext CreateDbContext(string[]? args = null)
             {

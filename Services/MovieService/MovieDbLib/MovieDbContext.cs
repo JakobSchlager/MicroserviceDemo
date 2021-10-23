@@ -18,7 +18,7 @@ namespace MovieDbLib
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
 
-        class TournamentContextFactory : IDesignTimeDbContextFactory<MovieDbContext>
+        class MovieContextFactory : IDesignTimeDbContextFactory<MovieDbContext>
         {
             public MovieDbContext CreateDbContext(string[]? args = null)
             {

@@ -18,6 +18,7 @@ namespace RoomService
     public class Startup
     {
         private readonly string myAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -29,7 +30,6 @@ namespace RoomService
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<RoomDbContext>(options => options.UseMySql(Configuration["ConnectionStrings:DefaultConnection"], new MySqlServerVersion(new Version(8, 0, 26))));
-
             services.AddScoped<Services.RoomService>();
             services.AddScoped<Services.SeatService>();
 

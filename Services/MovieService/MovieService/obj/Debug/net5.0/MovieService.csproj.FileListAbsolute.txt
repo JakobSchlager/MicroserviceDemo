@@ -136,3 +136,4 @@ C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\Movi
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\MovieService\MovieService\obj\Debug\net5.0\MovieService.genruntimeconfig.cache
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\MovieService\MovieService\bin\Debug\net5.0\MySqlConnector.dll
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\MovieService\MovieService\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\MovieService\MovieService\obj\Debug\net5.0\MovieService.csproj.CopyComplete

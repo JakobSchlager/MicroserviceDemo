@@ -16,9 +16,9 @@ namespace RoomService.Services
             this._roomDb = roomDb;
         }
 
-        public List<SeatDTO> GetSeats()
+        public List<SeatDto> GetSeats()
         {
-            return _roomDb.Seats.Select(x => new SeatDTO
+            return _roomDb.Seats.Select(x => new SeatDto
             {
                 Id = x.Id,
                 Description = x.Description,
@@ -26,10 +26,10 @@ namespace RoomService.Services
             }).ToList();
         }
 
-        public SeatDTO GetSeat(int id)
+        public SeatDto GetSeat(int id)
         {
             var seat = _roomDb.Seats.Single(x => x.Id == id);
-            return new SeatDTO { Id = seat.Id, Description = seat.Description, RoomId = seat.RoomId };
+            return new SeatDto { Id = seat.Id, Description = seat.Description, RoomId = seat.RoomId };
         }
     }
 }
