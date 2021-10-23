@@ -1,0 +1,14 @@
+<div class="container">
+<div class="progress" style="position: relative; margin: 20px; overflow: visible;">
+  <div class="my-progress-buttons-container">
+    <button class="rounded-circle bg-primary " style="height: 25px; width: 25px;" (click)="setStatus(0)"></button>
+    <button class="rounded-circle" style="height: 25px; width: 25px;" (click)="setStatus(33.33)"></button>
+    <button class="rounded-circle" style="height: 25px; width: 25px;" (click)="setStatus(66.66)"></button>
+    <button class="rounded-circle" style="height: 25px; width: 25px;" (click)="setStatus(99.99)"></button>
+  </div>
+  <div class="progress-bar" style="border-radius: 10px;" role="progressbar" [ngStyle]="{'width': status+'%'}" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div *ngIf="status == 0">
+  helOL
+</div>
+</div>
