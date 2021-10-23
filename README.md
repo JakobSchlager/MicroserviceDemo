@@ -19,7 +19,7 @@ MariaDB/ MySql
 Synchron: Http (REST)
 Dateinformat: JSON  
 Asynchron:  
-![image](https://user-images.githubusercontent.com/55581391/136776694-9ad2310f-199d-42dd-a6ab-d465734c4abf.png)
+Falls noch Zeit nach der Synchronen Lösung bleibt. 
 *Als Messagebus wäre Azure Message Bus, NServiceBus, RabbitMQ möglich. ALlerdings noch keine Lösung für transactional outbox bei Azure Service Bus gefunden (für die basic Preisklasse).*
 ## 5. Services rudimentär implementieren
 ## 6. Qualitätskriterien 
