@@ -20,13 +20,13 @@ namespace RoomService.Controllers
         }
 
         [HttpGet]
-        public ActionResult<List<SeatDTO>> GetAll()
+        public ActionResult<List<SeatDto>> GetAll()
         {
             return Ok(_seatService.GetSeats());
         }
 
         [HttpGet("{id}")]
-        public ActionResult<SeatDTO> GetSingle(int id)
+        public ActionResult<SeatDto> GetSingle(int id)
         {
             return Ok(_seatService.GetSeat(id));
         }

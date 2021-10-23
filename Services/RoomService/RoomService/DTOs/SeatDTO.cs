@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace RoomService.DTOs
+﻿namespace RoomService.DTOs
 {
-    public class SeatDTO
+    public class SeatDto
     {
         public int Id { get; set; }
         public int RoomId { get; set; }

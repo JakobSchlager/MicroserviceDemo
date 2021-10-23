@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace RoomService.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/rooms")]
     [ApiController]
     public class RoomController : ControllerBase
     {
@@ -20,15 +20,22 @@ namespace RoomService.Controllers
         }
 
         [HttpGet]
-        public ActionResult<List<RoomDTO>> GetAll()
+        public ActionResult<List<RoomDto>> GetAll()
         {
             return Ok(_roomService.GetRooms());
         }
 
         [HttpGet("{id}")]
-        public ActionResult<RoomDTO> GetSingle(int id)
+        public ActionResult<RoomDto> Get(int id)
         {
             return Ok(_roomService.GetRoom(id));
         }
+
+        [HttpPost("{id}")]
+        public ActionResult<RoomDto> Post(int id, [FromBody] SeatDto seatDto)
+        {
+           return Ok(_roomService.AddSeat(id, seatDto)); 
+        }
+
     }
 }

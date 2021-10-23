@@ -36,3 +36,41 @@ G:\Diplo\CinemaMicro\RoomService\RoomService\obj\Debug\net5.0\RoomService.dll
 G:\Diplo\CinemaMicro\RoomService\RoomService\obj\Debug\net5.0\ref\RoomService.dll
 G:\Diplo\CinemaMicro\RoomService\RoomService\obj\Debug\net5.0\RoomService.pdb
 G:\Diplo\CinemaMicro\RoomService\RoomService\obj\Debug\net5.0\RoomService.genruntimeconfig.cache
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\RoomService.exe
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\appsettings.json
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\RoomService.deps.json
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\RoomService.runtimeconfig.json
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\RoomService.runtimeconfig.dev.json
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\RoomService.dll
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\ref\RoomService.dll
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\RoomService.pdb
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\MySqlConnector.dll
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\RoomDbLib.dll
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\bin\Debug\net5.0\RoomDbLib.pdb
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.csproj.AssemblyReference.cache
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.AssemblyInfoInputs.cache
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.AssemblyInfo.cs
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.csproj.CoreCompileInputs.cache
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\staticwebassets\RoomService.StaticWebAssets.Manifest.cache
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\staticwebassets\RoomService.StaticWebAssets.xml
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\scopedcss\bundle\RoomService.styles.css
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.RazorTargetAssemblyInfo.cache
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.dll
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\ref\RoomService.dll
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.pdb
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.genruntimeconfig.cache
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.csproj.CopyComplete
