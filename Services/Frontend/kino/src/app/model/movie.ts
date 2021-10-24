@@ -6,4 +6,5 @@ export interface IMovie {
     length: number, 
     releaseDate: string, 
     ageRestriction: number, 
+    image: string
 }
