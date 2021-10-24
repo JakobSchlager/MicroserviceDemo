@@ -73,4 +73,3 @@ C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\Room
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\ref\RoomService.dll
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.pdb
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.genruntimeconfig.cache
-C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.csproj.CopyComplete
