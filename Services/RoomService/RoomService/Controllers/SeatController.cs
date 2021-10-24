@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace RoomService.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/seats")]
     [ApiController]
     public class SeatController : ControllerBase
     {

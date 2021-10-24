@@ -35,9 +35,9 @@ namespace RoomService.Controllers
         public ActionResult<RoomDto> PostRoom([FromBody] RoomDto roomDto)
         {
             return Ok(_roomService.AddRoom(roomDto)); 
-        }
+        } 
 
-        [HttpPost("{id}")]
+        [HttpPost("{id}/seats")]
         public ActionResult<RoomDto> PostSeat(int id, [FromBody] SeatDto seatDto)
         {
            return Ok(_roomService.AddSeat(id, seatDto)); 
