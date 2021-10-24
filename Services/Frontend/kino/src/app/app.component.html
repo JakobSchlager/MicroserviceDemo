@@ -1,14 +1,47 @@
+<!--  -->
 <div class="container">
 <div class="progress" style="position: relative; margin: 20px; overflow: visible;">
+  
   <div class="my-progress-buttons-container">
-    <button class="rounded-circle bg-primary " style="height: 25px; width: 25px;" (click)="setStatus(0)"></button>
-    <button class="rounded-circle" style="height: 25px; width: 25px;" (click)="setStatus(33.33)"></button>
-    <button class="rounded-circle" style="height: 25px; width: 25px;" (click)="setStatus(66.66)"></button>
-    <button class="rounded-circle" style="height: 25px; width: 25px;" (click)="setStatus(99.99)"></button>
+    <button class="rounded-circle bg-primary " style="height: 25px; width: 25px;" (click)="setStatus(0)"></button> <!-- (click)="setStatus(0)" -->
+    <button class="rounded-circle bg-primary " style="height: 25px; width: 25px;"></button> <!-- (click)="setStatus(33.33)  -->
+    <button class="rounded-circle bg-primary " style="height: 25px; width: 25px;" ></button><!-- (click)="setStatus(66.66)  -->
+    <button class="rounded-circle bg-primary " style="height: 25px; width: 25px;"></button><!-- (click)="setStatus(99.99)  -->
   </div>
   <div class="progress-bar" style="border-radius: 10px;" role="progressbar" [ngStyle]="{'width': status+'%'}" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 <div *ngIf="status == 0">
-  helOL
+  <div class="card">
+    <div class="card-header">
+      Pick a Movies
+    </div>
+    <div>
+      <ul class="list-group">
+        <li *ngFor="let movie of movies" class="list-group-item">
+          <movie [movie]="movie" (pickedMovie)="pickMovie($event)"></movie>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
+<div *ngIf="status == 33.33">
+  <div class="card">
+    <div class="card-header">
+      <div class="row">
+        <div class="col">
+          Pick a Presentation
+        </div>
+        <div class="col-auto">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div *ngIf="status == 66.66">
+  ok2
+ </div>
+ <div *ngIf="status == 99.99">
+  ok3
+ </div>
 </div>

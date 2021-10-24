@@ -1,0 +1,41 @@
+<div class="container">
+        <div class="row">
+          <div class="col-2">
+             <img [src]="movie.image" class="img-thumbnail">
+          </div>
+          <div class="col">
+             <h4>{{movie.title}}</h4>
+             Duration: {{movie.length}} Minutes
+             <br>
+             Release: {{movie.releaseDate | date: 'dd.MM.yyyy'}}
+             <br>
+             Language: {{movie.language}}
+             <br>
+             <br>
+             <div class="row">
+               <div class="col-8">
+               </div>
+               <div class="col-4">
+                 <button (click)="selected()" class="btn btn-primary">Buy Ticket</button>
+               </div>
+             </div>
+             
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-header">
+                Description
+              </div>
+              <div class="card-body">
+                {{movie.description}}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!--     description: string, 
+    language: string, 
+    length: number, 
+    releaseDate: string, 
+    ageRestriction: number,  -->
