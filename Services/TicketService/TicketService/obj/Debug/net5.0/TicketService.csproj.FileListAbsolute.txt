@@ -35,3 +35,4 @@ C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\Tick
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\TicketService\TicketService\obj\Debug\net5.0\ref\TicketService.dll
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\TicketService\TicketService\obj\Debug\net5.0\TicketService.pdb
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\TicketService\TicketService\obj\Debug\net5.0\TicketService.genruntimeconfig.cache
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\TicketService\TicketService\obj\Debug\net5.0\TicketService.csproj.CopyComplete

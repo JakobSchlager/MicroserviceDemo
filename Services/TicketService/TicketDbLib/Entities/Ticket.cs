@@ -20,7 +20,36 @@ namespace TicketDbLib.Entities
     {
         public void Configure(EntityTypeBuilder<Ticket> builder)
         {
-            builder.ToTable("ticket"); 
+            builder.ToTable("ticket");
+
+            builder.HasData(new Ticket
+            {
+                Id = 1,
+                PresentationId = 1,
+                CustomerName = "Jakob Schlager",
+                SeatId = 15,
+            });
+            builder.HasData(new Ticket
+            {
+                Id = 2,
+                PresentationId = 1,
+                CustomerName = "Thomas Wahlmüller",
+                SeatId = 18,
+            });
+            builder.HasData(new Ticket
+            {
+                Id = 3,
+                PresentationId = 2,
+                CustomerName = "Florian Auer",
+                SeatId = 30,
+            });
+            builder.HasData(new Ticket
+            {
+                Id = 4,
+                PresentationId = 2,
+                CustomerName = "Fabian Graml",
+                SeatId = 31,
+            });
         }
     }
 }
