@@ -14,6 +14,32 @@ namespace RoomDbLib.Entities
         public void Configure(EntityTypeBuilder<Room> builder)
         {
             builder.ToTable("room");
+
+            builder.HasData(new Room
+            {
+                Id = 1, 
+                Description = "Display: 3D, UHD", 
+            });
+            builder.HasData(new Room
+            {
+                Id = 2,
+                Description = "Display: 3D", 
+            }); 
+            builder.HasData(new Room
+            {
+                Id = 3, 
+                Description = "Display: 3D, UHD", 
+            }); 
+            builder.HasData(new Room
+            {
+                Id = 4, 
+                Description = "Display: 3D, UHD", 
+            }); 
+            builder.HasData(new Room
+            {
+                Id = 5, 
+                Description = "Display: 4D", 
+            }); 
         }
     }
 }

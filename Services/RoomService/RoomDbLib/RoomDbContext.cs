@@ -1,9 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;
+using System.Reflection;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 using RoomDbLib.Entities;
-using System;
-using System.Reflection;
 
 namespace RoomDbLib
 {
