@@ -9,5 +9,6 @@
         public int Length { get; set; }
         public string ReleaseDate { get; set; }
         public int AgeRestriction { get; set; }
+        public string Image { get; set; }
     }
 }

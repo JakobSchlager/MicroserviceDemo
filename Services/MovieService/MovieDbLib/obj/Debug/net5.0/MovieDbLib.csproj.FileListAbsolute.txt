@@ -14,3 +14,4 @@ C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\Movi
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\MovieService\MovieDbLib\obj\Debug\net5.0\MovieDbLib.pdb
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\MovieService\MovieDbLib\obj\Debug\net5.0\MovieDbLib.genruntimeconfig.cache
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\MovieService\MovieDbLib\bin\Debug\net5.0\appsettings.json
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\MovieService\MovieDbLib\bin\Debug\net5.0\Files\movies.json

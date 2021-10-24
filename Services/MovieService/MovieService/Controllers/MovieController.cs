@@ -30,6 +30,12 @@ namespace MovieService.Controllers
             return (_movieService.GetMovie(id));
         }
 
+        [HttpPost]
+        public ActionResult<MovieDto> Post([FromBody] MovieDto movieDto)
+        {
+            return (_movieService.AddMovie(movieDto)); 
+        }
+
         [HttpGet("{id}/presentations")]
         public ActionResult<List<PresentationDto>> GetPresentationsOfMovie(int id)
         {
