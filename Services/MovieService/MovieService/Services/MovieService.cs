@@ -1,7 +1,10 @@
-﻿using MovieDbLib;
+﻿using System; 
+using MovieDbLib;
+using MovieDbLib.Entities;
 using MovieService.DTOs;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.AspNetCore.Mvc;
 
 namespace MovieService.Services
 {
@@ -16,24 +19,51 @@ namespace MovieService.Services
 
         public List<MovieDto> GetMovies()
         {
-            return _movieDb.Movies.Select(x => new MovieDto
-            {
-                Id = x.Id,
-                Title = x.Title,
-                Description = x.Description,
-                Language = x.Language,
-                Length = x.Length,
-                AgeRestriction = x.AgeRestriction,
-                ReleaseDate = x.ReleaseDate,
-            })
+            return _movieDb.Movies.Select(x => MapToMovieDto(x))
             .ToList();
         }
 
         public MovieDto GetMovie(int id)
         {
             var movie = _movieDb.Movies.Find(id);
+            if (movie == null) throw new Exception($"No movie with id: {id} exists."); 
 
-            return new MovieDto
+            return MapToMovieDto(movie); 
+        }
+
+        public ActionResult<MovieDto> AddMovie(MovieDto movieDto)
+        {
+            var movie = _movieDb.Movies.Add(new Movie
+            {
+                Id = 0, 
+                Title = movieDto.Title,
+                Description = movieDto.Description,
+                Language = movieDto.Language,
+                Length = movieDto.Length,
+                AgeRestriction = movieDto.AgeRestriction,
+                ReleaseDate = movieDto.ReleaseDate,
+                Image = movieDto.Image, 
+            }).Entity;
+
+            _movieDb.SaveChanges();
+
+            return MapToMovieDto(movie); 
+        }
+
+        public List<PresentationDto> GetPresentationsOfMovie(int id)
+        {
+            return _movieDb.Presentations.Where(x => x.MovieId == id).Select(x => new PresentationDto
+            {
+                Id = x.Id,
+                MovieId = x.MovieId,
+                RoomId = x.RoomId,
+                StartTime = x.StartTime,
+            })
+            .ToList();
+        }
+
+        private static MovieDto MapToMovieDto(Movie movie) =>
+            new MovieDto
             {
                 Id = movie.Id,
                 Title = movie.Title,
@@ -42,19 +72,7 @@ namespace MovieService.Services
                 Length = movie.Length,
                 AgeRestriction = movie.AgeRestriction,
                 ReleaseDate = movie.ReleaseDate,
+                Image = movie.Image, 
             };
-        }
-
-        public List<PresentationDto> GetPresentationsOfMovie(int id)
-        {
-            return _movieDb.Presentations.Where(x => x.MovieId == id).Select(x => new PresentationDto
-            {
-                Id = x.Id, 
-                MovieId = x.MovieId, 
-                RoomId = x.RoomId, 
-                StartTime = x.StartTime, 
-            })
-            .ToList(); 
-        }
     }
 }
