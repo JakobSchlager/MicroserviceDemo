@@ -141,3 +141,4 @@ C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\Movi
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\MovieService\MovieService\bin\Debug\net5.0\Aqua.Newtonsoft.Json.dll
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\MovieService\MovieService\bin\Debug\net5.0\Remote.Linq.dll
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\MovieService\MovieService\bin\Debug\net5.0\Remote.Linq.Newtonsoft.Json.dll
+C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\MovieService\MovieService\obj\Debug\net5.0\MovieService.csproj.CopyComplete
