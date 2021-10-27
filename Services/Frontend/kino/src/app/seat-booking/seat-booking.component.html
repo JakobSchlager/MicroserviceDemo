@@ -1,0 +1,85 @@
+<div class="row">
+  <div class="col">
+    <div class="card">
+      <div class="card-header" *ngIf="presentation">
+        <h5>Room {{presentation.roomId}}, {{presentation.startTime}}</h5>
+      </div>
+      <div class="card-body" *ngIf="movie">
+        <div class="row">
+        <div class="col-2">
+          <img [src]="movie.image" class="img-thumbnail">
+       </div>
+       <div class="col">
+          <h4>{{movie.title}}</h4>
+          Duration: {{movie.length}} Minutes
+          <br>
+          Release: {{movie.releaseDate | date: 'dd.MM.yyyy'}}
+          <br>
+          Language: {{movie.language}}
+       </div>
+      </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="card">
+      <div class="card-header" *ngIf="presentation">
+        <h5>Bill</h5>
+      </div>
+      <div class="card-body" *ngIf="movie">
+        <div class="row">
+          <div class="col">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1" style="padding: 0.75em;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg>
+              </span>
+              </div>
+              <input [(ngModel)]="name" type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+            </div>
+          </div>
+          <div class="col-auto" style="padding: 0.5em;">
+            <label>{{selectedSeats.length}} x Seats(21,5€) = <b>{{selectedSeats.length*21.5 | currency: 'EUR'}}</b></label>
+          </div>
+        
+        </div>
+        
+      </div>
+    </div>
+
+    <br>
+
+    <button class="btn btn-success" style="width: 100%;" (click)="buy()" [disabled]="diable">Reserve</button>
+    
+  </div>
+    
+    <div class="col-4">
+        <div class="card">
+            <div class="card-header">
+              Pick Seats
+            </div>
+            <div class="card-body">
+                <ol>
+                    <li class="row" *ngFor="let seat of seats; let i = index">
+                      <ol class="seats" type="A">
+                        <li class="seat" *ngFor="let se of seat">
+                          <input (click)="seatSelected(se.id)" type="checkbox" id="{{se.id}}"/>  <!-- disabled -->
+                          <label for="{{se.id}}">{{se.id}}</label> <!-- Occupied -->
+                        </li>
+                      </ol>
+                    </li> 
+                  </ol>
+            </div>
+          </div>
+    </div>
+</div>
+
+
+
+
+
+    
+
