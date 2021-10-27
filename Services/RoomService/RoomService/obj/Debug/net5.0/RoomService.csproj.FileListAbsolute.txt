@@ -74,3 +74,40 @@ C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\Room
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.pdb
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.genruntimeconfig.cache
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.csproj.CopyComplete
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\appsettings.Development.json
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\RoomService.exe
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\appsettings.json
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\RoomService.deps.json
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\RoomService.runtimeconfig.json
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\RoomService.runtimeconfig.dev.json
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\RoomService.dll
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\ref\RoomService.dll
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\RoomService.pdb
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\Microsoft.OpenApi.dll
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\MySqlConnector.dll
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\RoomDbLib.dll
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\bin\Debug\net5.0\RoomDbLib.pdb
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.csproj.AssemblyReference.cache
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.GeneratedMSBuildEditorConfig.editorconfig
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.AssemblyInfoInputs.cache
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.AssemblyInfo.cs
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.csproj.CoreCompileInputs.cache
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.MvcApplicationPartsAssemblyInfo.cs
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.MvcApplicationPartsAssemblyInfo.cache
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\obj\Debug\net5.0\staticwebassets\RoomService.StaticWebAssets.Manifest.cache
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\obj\Debug\net5.0\staticwebassets\RoomService.StaticWebAssets.xml
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\obj\Debug\net5.0\scopedcss\bundle\RoomService.styles.css
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.RazorTargetAssemblyInfo.cache
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.dll
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\obj\Debug\net5.0\ref\RoomService.dll
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.pdb
+G:\Diplo\MicroserviceDemo\Services\RoomService\RoomService\obj\Debug\net5.0\RoomService.genruntimeconfig.cache

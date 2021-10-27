@@ -11,3 +11,19 @@ C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\Tick
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\TicketService\TicketDbLib\obj\Debug\net5.0\TicketDbLib.dll
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\TicketService\TicketDbLib\obj\Debug\net5.0\ref\TicketDbLib.dll
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\TicketService\TicketDbLib\obj\Debug\net5.0\TicketDbLib.pdb
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketDbLib\bin\Debug\net5.0\appsettings.json
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketDbLib\bin\Debug\net5.0\TicketDbLib.deps.json
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketDbLib\bin\Debug\net5.0\TicketDbLib.dll
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketDbLib\bin\Debug\net5.0\ref\TicketDbLib.dll
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketDbLib\bin\Debug\net5.0\TicketDbLib.pdb
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketDbLib\obj\Debug\net5.0\TicketDbLib.GeneratedMSBuildEditorConfig.editorconfig
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketDbLib\obj\Debug\net5.0\TicketDbLib.AssemblyInfoInputs.cache
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketDbLib\obj\Debug\net5.0\TicketDbLib.AssemblyInfo.cs
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketDbLib\obj\Debug\net5.0\TicketDbLib.csproj.CoreCompileInputs.cache
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketDbLib\obj\Debug\net5.0\TicketDbLib.dll
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketDbLib\obj\Debug\net5.0\ref\TicketDbLib.dll
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketDbLib\obj\Debug\net5.0\TicketDbLib.pdb
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketDbLib\bin\Debug\net5.0\TicketDbLib.runtimeconfig.json
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketDbLib\bin\Debug\net5.0\TicketDbLib.runtimeconfig.dev.json
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketDbLib\obj\Debug\net5.0\TicketDbLib.genruntimeconfig.cache
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketDbLib\obj\Debug\net5.0\TicketDbLib.csproj.AssemblyReference.cache

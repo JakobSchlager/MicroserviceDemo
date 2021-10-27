@@ -10,18 +10,9 @@
              Release: {{movie.releaseDate | date: 'dd.MM.yyyy'}}
              <br>
              Language: {{movie.language}}
-             <br>
-             <br>
-             <div class="row">
-               <div class="col-8">
-               </div>
-               <div class="col-4">
-                 <button (click)="selected()" class="btn btn-primary">Buy Ticket</button>
-               </div>
-             </div>
              
           </div>
-          <div class="col">
+          <div style="position: relative;" class="col">
             <div class="card">
               <div class="card-header">
                 Description
@@ -29,6 +20,11 @@
               <div class="card-body">
                 {{movie.description}}
               </div>
+            </div>
+            <br>
+            <br>
+            <div style="width: 100%; position: absolute; bottom: 0; padding-right: 1.5rem;">
+              <button style="width: 100%;" (click)="selected()" class="btn btn-primary">Buy Ticket</button>
             </div>
           </div>
         </div>

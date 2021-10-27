@@ -15,3 +15,20 @@ C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\Movi
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\MovieService\MovieDbLib\obj\Debug\net5.0\MovieDbLib.genruntimeconfig.cache
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\MovieService\MovieDbLib\bin\Debug\net5.0\appsettings.json
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\MovieService\MovieDbLib\bin\Debug\net5.0\Files\movies.json
+G:\Diplo\MicroserviceDemo\Services\MovieService\MovieDbLib\bin\Debug\net5.0\appsettings.json
+G:\Diplo\MicroserviceDemo\Services\MovieService\MovieDbLib\bin\Debug\net5.0\Files\movies.json
+G:\Diplo\MicroserviceDemo\Services\MovieService\MovieDbLib\bin\Debug\net5.0\MovieDbLib.deps.json
+G:\Diplo\MicroserviceDemo\Services\MovieService\MovieDbLib\bin\Debug\net5.0\MovieDbLib.runtimeconfig.json
+G:\Diplo\MicroserviceDemo\Services\MovieService\MovieDbLib\bin\Debug\net5.0\MovieDbLib.runtimeconfig.dev.json
+G:\Diplo\MicroserviceDemo\Services\MovieService\MovieDbLib\bin\Debug\net5.0\MovieDbLib.dll
+G:\Diplo\MicroserviceDemo\Services\MovieService\MovieDbLib\bin\Debug\net5.0\ref\MovieDbLib.dll
+G:\Diplo\MicroserviceDemo\Services\MovieService\MovieDbLib\bin\Debug\net5.0\MovieDbLib.pdb
+G:\Diplo\MicroserviceDemo\Services\MovieService\MovieDbLib\obj\Debug\net5.0\MovieDbLib.csproj.AssemblyReference.cache
+G:\Diplo\MicroserviceDemo\Services\MovieService\MovieDbLib\obj\Debug\net5.0\MovieDbLib.GeneratedMSBuildEditorConfig.editorconfig
+G:\Diplo\MicroserviceDemo\Services\MovieService\MovieDbLib\obj\Debug\net5.0\MovieDbLib.AssemblyInfoInputs.cache
+G:\Diplo\MicroserviceDemo\Services\MovieService\MovieDbLib\obj\Debug\net5.0\MovieDbLib.AssemblyInfo.cs
+G:\Diplo\MicroserviceDemo\Services\MovieService\MovieDbLib\obj\Debug\net5.0\MovieDbLib.csproj.CoreCompileInputs.cache
+G:\Diplo\MicroserviceDemo\Services\MovieService\MovieDbLib\obj\Debug\net5.0\MovieDbLib.dll
+G:\Diplo\MicroserviceDemo\Services\MovieService\MovieDbLib\obj\Debug\net5.0\ref\MovieDbLib.dll
+G:\Diplo\MicroserviceDemo\Services\MovieService\MovieDbLib\obj\Debug\net5.0\MovieDbLib.pdb
+G:\Diplo\MicroserviceDemo\Services\MovieService\MovieDbLib\obj\Debug\net5.0\MovieDbLib.genruntimeconfig.cache

@@ -36,3 +36,40 @@ C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\Tick
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\TicketService\TicketService\obj\Debug\net5.0\TicketService.pdb
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\TicketService\TicketService\obj\Debug\net5.0\TicketService.genruntimeconfig.cache
 C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\TicketService\TicketService\obj\Debug\net5.0\TicketService.csproj.CopyComplete
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\appsettings.Development.json
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\TicketService.exe
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\appsettings.json
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\TicketService.deps.json
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\TicketService.runtimeconfig.json
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\TicketService.runtimeconfig.dev.json
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\TicketService.dll
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\ref\TicketService.dll
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\TicketService.pdb
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\Microsoft.OpenApi.dll
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\MySqlConnector.dll
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\TicketDbLib.dll
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\bin\Debug\net5.0\TicketDbLib.pdb
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\obj\Debug\net5.0\TicketService.csproj.AssemblyReference.cache
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\obj\Debug\net5.0\TicketService.GeneratedMSBuildEditorConfig.editorconfig
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\obj\Debug\net5.0\TicketService.AssemblyInfoInputs.cache
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\obj\Debug\net5.0\TicketService.AssemblyInfo.cs
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\obj\Debug\net5.0\TicketService.csproj.CoreCompileInputs.cache
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\obj\Debug\net5.0\TicketService.MvcApplicationPartsAssemblyInfo.cs
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\obj\Debug\net5.0\TicketService.MvcApplicationPartsAssemblyInfo.cache
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\obj\Debug\net5.0\staticwebassets\TicketService.StaticWebAssets.Manifest.cache
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\obj\Debug\net5.0\staticwebassets\TicketService.StaticWebAssets.xml
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\obj\Debug\net5.0\scopedcss\bundle\TicketService.styles.css
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\obj\Debug\net5.0\TicketService.RazorTargetAssemblyInfo.cache
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\obj\Debug\net5.0\TicketService.dll
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\obj\Debug\net5.0\ref\TicketService.dll
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\obj\Debug\net5.0\TicketService.pdb
+G:\Diplo\MicroserviceDemo\Services\TicketService\TicketService\obj\Debug\net5.0\TicketService.genruntimeconfig.cache

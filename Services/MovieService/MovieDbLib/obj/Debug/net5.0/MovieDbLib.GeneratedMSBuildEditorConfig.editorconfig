@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = MovieDbLib
-build_property.ProjectDir = C:\Users\jakob\OneDrive - htl-grieskirchen.at\Diplomarbeit\01_Demo\Services\MovieService\MovieDbLib\
+build_property.ProjectDir = G:\Diplo\MicroserviceDemo\Services\MovieService\MovieDbLib\

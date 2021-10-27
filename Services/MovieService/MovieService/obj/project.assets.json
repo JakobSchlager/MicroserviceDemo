@@ -7749,19 +7749,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jakob\\.nuget\\packages\\": {}
+    "C:\\Users\\thoma\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jakob\\OneDrive - htl-grieskirchen.at\\Diplomarbeit\\01_Demo\\Services\\MovieService\\MovieService\\MovieService.csproj",
+      "projectUniqueName": "G:\\Diplo\\MicroserviceDemo\\Services\\MovieService\\MovieService\\MovieService.csproj",
       "projectName": "MovieService",
-      "projectPath": "C:\\Users\\jakob\\OneDrive - htl-grieskirchen.at\\Diplomarbeit\\01_Demo\\Services\\MovieService\\MovieService\\MovieService.csproj",
-      "packagesPath": "C:\\Users\\jakob\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jakob\\OneDrive - htl-grieskirchen.at\\Diplomarbeit\\01_Demo\\Services\\MovieService\\MovieService\\obj\\",
+      "projectPath": "G:\\Diplo\\MicroserviceDemo\\Services\\MovieService\\MovieService\\MovieService.csproj",
+      "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
+      "outputPath": "G:\\Diplo\\MicroserviceDemo\\Services\\MovieService\\MovieService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jakob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\thoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7775,8 +7775,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\jakob\\OneDrive - htl-grieskirchen.at\\Diplomarbeit\\01_Demo\\Services\\MovieService\\MovieDbLib\\MovieDbLib.csproj": {
-              "projectPath": "C:\\Users\\jakob\\OneDrive - htl-grieskirchen.at\\Diplomarbeit\\01_Demo\\Services\\MovieService\\MovieDbLib\\MovieDbLib.csproj"
+            "G:\\Diplo\\MicroserviceDemo\\Services\\MovieService\\MovieDbLib\\MovieDbLib.csproj": {
+              "projectPath": "G:\\Diplo\\MicroserviceDemo\\Services\\MovieService\\MovieDbLib\\MovieDbLib.csproj"
             }
           }
         }
@@ -7832,7 +7832,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

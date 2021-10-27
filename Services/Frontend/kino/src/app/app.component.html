@@ -1,12 +1,11 @@
-<!--  -->
 <div class="container">
 <div class="progress" style="position: relative; margin: 20px; overflow: visible;">
   
   <div class="my-progress-buttons-container">
-    <button class="rounded-circle bg-primary " style="height: 25px; width: 25px;" (click)="setStatus(0)"></button> <!-- (click)="setStatus(0)" -->
-    <button class="rounded-circle bg-primary " style="height: 25px; width: 25px;"></button> <!-- (click)="setStatus(33.33)  -->
-    <button class="rounded-circle bg-primary " style="height: 25px; width: 25px;" ></button><!-- (click)="setStatus(66.66)  -->
-    <button class="rounded-circle bg-primary " style="height: 25px; width: 25px;"></button><!-- (click)="setStatus(99.99)  -->
+    <button class="rounded-circle bg-primary " style="height: 25px; width: 25px;" (click)="setStatusFront(0)"></button> <!-- (click)="setStatus(0)" -->
+    <button class="rounded-circle bg-primary " style="height: 25px; width: 25px;" (click)="setStatusFront(33.33)"></button> <!-- (click)="setStatus(33.33)  -->
+    <button class="rounded-circle bg-primary " style="height: 25px; width: 25px;" (click)="setStatusFront(66.66)"></button><!-- (click)="setStatus(66.66)  -->
+    <button class="rounded-circle bg-success " style="height: 25px; width: 25px;" ></button>
   </div>
   <div class="progress-bar" style="border-radius: 10px;" role="progressbar" [ngStyle]="{'width': status+'%'}" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
@@ -32,16 +31,52 @@
           Pick a Presentation
         </div>
         <div class="col-auto">
-          
         </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card" *ngFor="let presentation of presentations">
+        <presentation [presentation]="presentation" (pickedPresentation)="pickPresentation($event)"></presentation>
       </div>
     </div>
   </div>
 </div>
 <div *ngIf="status == 66.66">
-  ok2
+  <div class="card">
+    <div class="card-header">
+      <div class="row">
+        <div class="col">
+          Configure Tickets
+        </div>
+        <div class="col-auto">
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <seat-booking [roomId]="pickedPresentation.id" [movieId]="pickedMovieId" [presentationId]="pickedPresentation.id" (result)="pickedTickets($event)"></seat-booking>
+    </div>
+  </div>
  </div>
  <div *ngIf="status == 99.99">
-  ok3
+   <h1>Tickets Reserved</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">presentationID</th>
+        <th scope="col">seatID</th>
+        <th scope="col">Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let ticket of globalTickets">
+        <th scope="row">{{ticket.id}}</th>
+        <td>{{ticket.presentationId}}</td>
+        <td>{{ticket.seatId}}</td>
+        <td>{{ticket.customerName}}</td>
+      </tr>
+
+    </tbody>
+  </table>
  </div>
 </div>

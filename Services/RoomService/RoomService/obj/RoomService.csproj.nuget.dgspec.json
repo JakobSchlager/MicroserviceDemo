@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jakob\\OneDrive - htl-grieskirchen.at\\Diplomarbeit\\01_Demo\\Services\\RoomService\\RoomService\\RoomService.csproj": {}
+    "G:\\Diplo\\MicroserviceDemo\\Services\\RoomService\\RoomService\\RoomService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jakob\\OneDrive - htl-grieskirchen.at\\Diplomarbeit\\01_Demo\\Services\\RoomService\\RoomDbLib\\RoomDbLib.csproj": {
+    "G:\\Diplo\\MicroserviceDemo\\Services\\RoomService\\RoomDbLib\\RoomDbLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jakob\\OneDrive - htl-grieskirchen.at\\Diplomarbeit\\01_Demo\\Services\\RoomService\\RoomDbLib\\RoomDbLib.csproj",
+        "projectUniqueName": "G:\\Diplo\\MicroserviceDemo\\Services\\RoomService\\RoomDbLib\\RoomDbLib.csproj",
         "projectName": "RoomDbLib",
-        "projectPath": "C:\\Users\\jakob\\OneDrive - htl-grieskirchen.at\\Diplomarbeit\\01_Demo\\Services\\RoomService\\RoomDbLib\\RoomDbLib.csproj",
-        "packagesPath": "C:\\Users\\jakob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jakob\\OneDrive - htl-grieskirchen.at\\Diplomarbeit\\01_Demo\\Services\\RoomService\\RoomDbLib\\obj\\",
+        "projectPath": "G:\\Diplo\\MicroserviceDemo\\Services\\RoomService\\RoomDbLib\\RoomDbLib.csproj",
+        "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
+        "outputPath": "G:\\Diplo\\MicroserviceDemo\\Services\\RoomService\\RoomDbLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jakob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\thoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,9 +44,15 @@
               "target": "Package",
               "version": "[5.0.11, )"
             },
-            "Microsoft.Extensions.Configuration": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.11, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
@@ -72,21 +78,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jakob\\OneDrive - htl-grieskirchen.at\\Diplomarbeit\\01_Demo\\Services\\RoomService\\RoomService\\RoomService.csproj": {
+    "G:\\Diplo\\MicroserviceDemo\\Services\\RoomService\\RoomService\\RoomService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jakob\\OneDrive - htl-grieskirchen.at\\Diplomarbeit\\01_Demo\\Services\\RoomService\\RoomService\\RoomService.csproj",
+        "projectUniqueName": "G:\\Diplo\\MicroserviceDemo\\Services\\RoomService\\RoomService\\RoomService.csproj",
         "projectName": "RoomService",
-        "projectPath": "C:\\Users\\jakob\\OneDrive - htl-grieskirchen.at\\Diplomarbeit\\01_Demo\\Services\\RoomService\\RoomService\\RoomService.csproj",
-        "packagesPath": "C:\\Users\\jakob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jakob\\OneDrive - htl-grieskirchen.at\\Diplomarbeit\\01_Demo\\Services\\RoomService\\RoomService\\obj\\",
+        "projectPath": "G:\\Diplo\\MicroserviceDemo\\Services\\RoomService\\RoomService\\RoomService.csproj",
+        "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
+        "outputPath": "G:\\Diplo\\MicroserviceDemo\\Services\\RoomService\\RoomService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jakob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\thoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,8 +106,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\jakob\\OneDrive - htl-grieskirchen.at\\Diplomarbeit\\01_Demo\\Services\\RoomService\\RoomDbLib\\RoomDbLib.csproj": {
-                "projectPath": "C:\\Users\\jakob\\OneDrive - htl-grieskirchen.at\\Diplomarbeit\\01_Demo\\Services\\RoomService\\RoomDbLib\\RoomDbLib.csproj"
+              "G:\\Diplo\\MicroserviceDemo\\Services\\RoomService\\RoomDbLib\\RoomDbLib.csproj": {
+                "projectPath": "G:\\Diplo\\MicroserviceDemo\\Services\\RoomService\\RoomDbLib\\RoomDbLib.csproj"
               }
             }
           }
@@ -139,7 +145,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
