@@ -18,5 +18,17 @@ namespace MovieService.Controllers
         {
             this._presentationService = presentationService; 
         }
+
+        [HttpGet("{id}")]
+        public ActionResult<PresentationDto> Get(int id)
+        {
+            return Ok(_presentationService.GetSinglePresentations(id));
+        }
+
+        [HttpPost]
+        public ActionResult<MovieDto> Post([FromBody] PresentationDto presentationDto)
+        {
+            return Ok(_presentationService.AddPresentation(presentationDto));
+        }
     }
 }

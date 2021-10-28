@@ -15,6 +15,11 @@ export class TicketService {
     return this.http.get<ITicket[]>(this.baseURL);
   }
 
+  getAllSeats(id: number)
+  {
+    return this.http.get<number[]>(this.baseURL + '/presentation/' + id);
+  }
+
   postNewTicket(ticket: ITicket)
   {
     return this.http.post<ITicket>(this.baseURL, ticket);

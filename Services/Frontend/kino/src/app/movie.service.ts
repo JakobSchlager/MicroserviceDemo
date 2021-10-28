@@ -8,6 +8,7 @@ import { IPresentation } from './model/presentation';
 })
 export class MovieService {
   baseURL = 'http://localhost:5000/api/movies';
+  baseURLPrezi = 'http://localhost:5000/api/presentations';
 
   constructor(private http: HttpClient) { }
 
@@ -26,5 +27,9 @@ export class MovieService {
     return this.http.get<IPresentation[]>(this.baseURL + '/' + id + '/presentations');
   }
 
+  getSinglePresentation(id: number)
+  {
+    return this.http.get<IPresentation>(this.baseURLPrezi + '/' + id);
+  }
 
 }

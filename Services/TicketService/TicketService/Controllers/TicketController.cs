@@ -25,6 +25,13 @@ namespace TicketService.Controllers
             return Ok(_ticketService.GetAll());
         }
 
+        [HttpGet]
+        [Route("presentation/{id}")]
+        public ActionResult<List<TicketDto>> GetSeats(int id)
+        {
+            return Ok(_ticketService.GetAllReserveSeats(id));
+        }
+
         [HttpPost]
         public ActionResult<TicketDto> Post([FromBody] TicketDto ticketDto)
         {
