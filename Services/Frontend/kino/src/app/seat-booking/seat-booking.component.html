@@ -62,11 +62,11 @@
               Pick Seats
             </div>
             <div class="card-body">
-                <ol>
+                <ol *ngIf="reservedSeats != undefined">
                     <li class="row" *ngFor="let seat of seats; let i = index">
                       <ol class="seats" type="A">
                         <li class="seat" *ngFor="let se of seat">
-                          <input (click)="seatSelected(se.id)" type="checkbox" id="{{se.id}}"/>  <!-- disabled -->
+                          <input (click)="seatSelected(se.id)" type="checkbox" id="{{se.id}}" [disabled]="checkSeat(se.id)"/>  <!-- disabled -->
                           <label for="{{se.id}}">{{se.id}}</label> <!-- Occupied -->
                         </li>
                       </ol>

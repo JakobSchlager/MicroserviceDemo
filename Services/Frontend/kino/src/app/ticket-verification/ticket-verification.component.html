@@ -1,1 +1,24 @@
-<p>ticket-verification works!</p>
+<div class="card" *ngIf="presentation">
+    <div class="card-header">
+      <h5>Ticket-ID: 00000{{ticket.id}}</h5>
+    </div>
+    <div class="card-body" *ngIf="movie">
+      <div class="row">
+      <div class="col-2">
+        <img [src]="movie.image" class="img-thumbnail">
+     </div>
+     <div class="col">
+        <h5>{{ticket.customerName}}</h5>
+        Room {{presentation.roomId}}, {{presentation.startTime}}
+        <br>
+        <hr>
+        <h4>{{movie.title}}</h4>
+        Duration: {{movie.length}} Minutes
+        <br>
+        Release: {{movie.releaseDate | date: 'dd.MM.yyyy'}}
+        <br>
+        Language: {{movie.language}}
+     </div>
+    </div>
+    </div>
+  </div>

@@ -29,6 +29,14 @@ namespace TicketService.Services
             .ToList();
         }
 
+        public List<int> GetAllReserveSeats(int id)
+        {
+            return _ticketDbContext.Tickets
+                .Where(x => x.PresentationId == id)
+                .Select(x => x.SeatId)
+                .ToList();
+        }
+
         public TicketDto AddTicket(TicketDto ticketDto)
         {
             if (!IsSeatAvailable(ticketDto.PresentationId, ticketDto.SeatId)) throw new Exception("Seat is already taken!");

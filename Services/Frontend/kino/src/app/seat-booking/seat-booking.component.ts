@@ -6,6 +6,7 @@ import { IMovie } from '../model/movie';
 import { IPresentation } from '../model/presentation';
 import { IRoom } from '../model/room';
 import { ITicket } from '../model/ticket';
+import { TicketService } from '../ticket.service';
 
 @Component({
   selector: 'seat-booking',
@@ -26,15 +27,33 @@ export class SeatBookingComponent implements OnInit {
   movie!: IMovie;
   presentation!: IPresentation;
   name: string = '';
+  reservedSeats!: number[];
 
-  constructor(private roomService: RoomService, private movieService: MovieService) { }
+  constructor(private roomService: RoomService, private movieService: MovieService, private ticketService: TicketService) { }
 
  
 
   ngOnInit(): void {
+    this.ticketService.getAllSeats(this.presentationId).subscribe(x => this.reservedSeats = x);
     this.roomService.getAllSeats().subscribe(x => this.initSeats(x.filter(y => y.roomId == this.roomId)));
     this.movieService.getOneMovie(this.movieId).subscribe(x => this.movie = x);
     this.movieService.getPresentationsOfMovie(this.movieId).subscribe(x => this.presentation = x.filter(y => y.id == this.presentationId)[0]);
+  }
+
+  checkSeat(id: number): boolean
+  {
+    //console.log(id);
+    //console.log(this.reservedSeats);
+    //console.log((this.reservedSeats.indexOf(id)));
+    if(this.reservedSeats.includes(id))
+    {
+      //console.log(true);
+      return true;
+    }
+    else{
+     // console.log(false);
+      return false;
+    }
   }
 
   buy()
