@@ -1,0 +1,58 @@
+apiVersion: consul.hashicorp.com/v1alpha1
+kind: ServiceDefaults
+metadata:
+  name: kino-ui
+spec:
+  transparentProxy:
+    dialedDirectly: true
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: movieservice
+automountServiceAccountToken: true
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: movieservice
+spec:
+  selector:
+    app: movieservice
+  ports:
+  - port: 5000
+    targetPort: 5000
+    protocol: TCP
+    name: http
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: movieservice
+  name: movieservice
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: movieservice
+  template:
+    metadata:
+      labels:
+        app: movieservice
+      annotations:
+        'consul.hashicorp.com/connect-inject': 'true'
+        'consul.hashicorp.com/transparent-proxy': 'true'
+        'consul.hashicorp.com/transparent-proxy-exclude-inbound-ports': '5000'
+        'consul.hashicorp.com/transparent-proxy-exclude-outbound-cidrs': '10.152.183.1/32'
+        'consul.hashicorp.com/connect-service-upstreams': 'mysql:3306'
+    spec:
+      containers:
+      - name: movieservice
+        image: jakobschlager/movieservice:release
+        ports:
+        - containerPort: 5000
+        imagePullPolicy: Always
+        env: 
+        - name: ASPNETCORE_URLS
+          value: http://*:5000

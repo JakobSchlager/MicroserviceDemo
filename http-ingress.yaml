@@ -1,0 +1,48 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: http-ingress
+spec:
+  defaultBackend:
+    service:
+      name: kino-ui
+      port:
+        number: 80
+  rules:
+  - http:
+      paths:
+      - pathType: Prefix
+        path: /api/movies
+        backend:
+          service: 
+            name: movieservice
+            port: 
+              number: 5000
+      - pathType: Prefix
+        path: /api/presentations
+        backend:
+          service: 
+            name: movieservice
+            port: 
+              number: 5000
+      - pathType: Prefix
+        path: /api/rooms
+        backend:
+          service: 
+            name: roomservice
+            port: 
+              number: 5000
+      - pathType: Prefix
+        path: /api/seats
+        backend:
+          service: 
+            name: roomservice
+            port: 
+              number: 5000
+      - pathType: Prefix
+        path: /api/tickets
+        backend:
+          service: 
+            name: ticketservice
+            port: 
+              number: 5000

@@ -1,0 +1,56 @@
+apiVersion: consul.hashicorp.com/v1alpha1
+kind: ServiceDefaults
+metadata:
+  name: kino-ui
+spec:
+  transparentProxy:
+    dialedDirectly: true
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: kino-ui
+automountServiceAccountToken: true
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: kino-ui
+spec:
+  selector:
+    app: kino-ui
+  ports:
+  - port: 80
+    targetPort: 80
+    protocol: TCP
+    name: http
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: kino-ui
+  name: kino-ui
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: kino-ui
+  template:
+    metadata:
+      annotations:
+        'consul.hashicorp.com/connect-inject': 'true'
+        'consul.hashicorp.com/transparent-proxy': 'true'
+        'consul.hashicorp.com/transparent-proxy-exclude-inbound-ports': '80,5000,5001,5002'
+        'consul.hashicorp.com/transparent-proxy-exclude-outbound-cidrs': '10.152.183.1/32'
+#        'consul.hashicorp.com/transparent-proxy': "true"
+#        'consul.hashicorp.com/connect-service-upstreams': 'movieservice:5000,roomservice:5001,ticketservice:5002'
+      labels:
+        app: kino-ui
+    spec:
+      containers:
+      - name: kino-ui
+        image: jakobschlager/kino-ui:release
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
