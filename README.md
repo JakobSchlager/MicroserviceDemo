@@ -21,6 +21,15 @@ Dateinformat: JSON
 Asynchron:  
 Falls noch Zeit nach der Synchronen Lösung bleibt. 
 *Als Messagebus wäre Azure Message Bus, NServiceBus, RabbitMQ möglich. ALlerdings noch keine Lösung für transactional outbox bei Azure Service Bus gefunden (für die basic Preisklasse).*
+![image](https://user-images.githubusercontent.com/55581391/148359796-1d79de36-4763-4c81-a18b-eb25c2c7116a.png)  
+Message Broker: RabbitMQ  
+Alternativer Name für EmailService: NotificationService  
+### Compensating Transactions: 
+- Der Ticketservice muss die Sitze bereits beim POST request reservieren. Schlägt allerdings der PDF oder Email Service fehl, muss das Ticket wieder gelöscht werden.    
+### Fragen:  
+- PDFSerrvice braucht eigentlich keine Compensating Transaction, außer er updated eventuell den Status?
+- Benötigt das Ticket einen Status?
+- Domain von PDFService und EmailService (Daten von PDFService sind redundant)?  
 ## 5. Services rudimentär implementieren
 ## 6. Qualitätskriterien 
 ## 7. Patterns und Technologien
