@@ -31,7 +31,24 @@ Alternativer Name für EmailService: NotificationService
 - Benötigt das Ticket einen Status?
 - Domain von PDFService und EmailService (Daten von PDFService sind redundant)?  
 ## 5. Services rudimentär implementieren
-## 6. Qualitätskriterien 
+## 6. Qualitätskriterien  
+### 6.1 Ausfallsicherheit (jeweils 3 Instancen pro Service und 3 Nodes)
+### 6.2 Ausfallsicherheit bezüglich asynchroner Kommunikation
 ## 7. Patterns und Technologien
+### Server-side discovery  
+Durch das Consul Service Mesh können Services über deren namen erreich werden ("http://movieservice/api/movies", .....). Dies würde natürlich auch durch die Kubernetes Dns möglich sein. 
+Außerdem kann man im yaml des Deployments festlegen unter welchen localhostports services erreichbar sein sollen.
+### Service registry
+Da wir Consul Service Mesh verwenden, existiert im Hintergrund auch eine Service registry. 
+### 3rd Party registration  
+Durch das Kubernetes Deployment wird jeder Pod automatisch mit einem Sidecar gestarted, welches den Services automatisch in consul registriert.
+### Saga Pattern   
+Siehe 4.3
+### Health Checks
+Consul liefert unter anderem eine Health Check funktion mit.
+### API gateway  
+Da wir ein ingress verwenden, verwenden wir auch ein API gateway.
+### Client-side UI composition
+Unsere Angular Application verwendet die CRUD Schnittstellen der Services.
 ## 8. Einrichtung der Technologien und Services auf VMs
 ## 9. Test
