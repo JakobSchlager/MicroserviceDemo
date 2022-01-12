@@ -30,6 +30,7 @@ Alternativer Name für EmailService: NotificationService
 - PDFSerrvice braucht eigentlich keine Compensating Transaction, außer er updated eventuell den Status?
 - Benötigt das Ticket einen Status?
 - Domain von PDFService und EmailService (Daten von PDFService sind redundant)?  
+- Wenn PDFService die REST-Schnittstelle von Ticketservice verwendet wieder "single point of failure"?
 ## 5. Services rudimentär implementieren
 ## 6. Qualitätskriterien  
 ### 6.1 Ausfallsicherheit (jeweils 3 Instancen pro Service und 3 Nodes)
