@@ -1,17 +1,3 @@
-apiVersion: consul.hashicorp.com/v1alpha1
-kind: ServiceDefaults
-metadata:
-  name: kino-ui
-spec:
-  transparentProxy:
-    dialedDirectly: true
----
-apiVersion: v1
-kind: ServiceAccount
-metadata:
-  name: roomservice
-automountServiceAccountToken: true
----
 apiVersion: v1
 kind: Service
 metadata:
