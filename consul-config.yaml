@@ -3,6 +3,7 @@ lobal:
   datacenter: dc1
 server:
   replicas: 3
+  storage: '5Gi'
   securityContext:
     runAsNonRoot: false
     runAsGroup: 0

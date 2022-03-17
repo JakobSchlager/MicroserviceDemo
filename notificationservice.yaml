@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: ticketservice
+  name: notificationservice
 spec:
   selector:
-    app: ticketservice
+    app: notificationservice
   ports:
   - port: 5000
     targetPort: 5000
@@ -15,27 +15,25 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: ticketservice
-  name: ticketservice
+    app: notificationservice
+  name: notificationservice
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: ticketservice
+      app: notificationservice
   template:
     metadata:
       labels:
-        app: ticketservice
+        app: notificationservice
       annotations:
         'consul.hashicorp.com/connect-inject': 'true'
         'consul.hashicorp.com/transparent-proxy': 'true'
-        'consul.hashicorp.com/transparent-proxy-exclude-inbound-ports': '5000'
-        'consul.hashicorp.com/transparent-proxy-exclude-outbound-cidrs': '10.152.183.1/32'
-        'consul.hashicorp.com/connect-service-upstreams': 'mysql:3306'
+        'consul.hashicorp.com/connect-service-upstreams': 'mongodb:27017'
     spec:
       containers:
-      - name: ticketservice
-        image: jakobschlager/ticketservice:release
+      - name: notificationservice
+        image: jakobschlager/notificationservice:release
         ports:
         - containerPort: 5000
         imagePullPolicy: Always
