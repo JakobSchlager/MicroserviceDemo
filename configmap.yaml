@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: appsettings.rabbitmq
+data:
+  appsettings.rabbitmq.json: |-
+    {
+      "RabbitMQ": {
+        "QueueSettings": {
+          "HostName": "rabbitmq-server-0.rabbitmq-nodes.rabbitmq",
+          "VirtualHost": "/",
+          "UserName": "default_user_YSdZ79MfKI99Ll18zFS",
+          "Password": "UE8L9r_6OhbvIhFzoweBPUPTli3DYu5f",
+          "Port": "5672"
+        }
+      }
+    }

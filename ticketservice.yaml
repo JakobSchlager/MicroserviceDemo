@@ -44,3 +44,10 @@ spec:
           value: http://*:5000
         - name: RABBITMQ_HOSTNAME
           value: rabbitmq-server-0.rabbitmq-nodes.rabbitmq
+        volumeMounts:
+        - name: appsettings-volume
+          mountPath: /app/Settings
+      volumes:
+      - name: appsettings-volume
+        configMap:
+          name: appsettings.rabbitmq
